@@ -288,21 +288,21 @@ function Ns.StatsCompute()
 		if Ns.MoonkinAura[spellId] and caster ~= "player" and not Ns.swiftRetCheck then
 			Ns.talentCaster = caster
 			Ns.hiddenHaste = Ns.impMoon
-			if GetTime() - Ns.throttleTime > Ns.inspectDelay then
-				local inRange = CheckInteractDistance(caster, 1)
-					if inRange then Ns.canInspect = CanInspect(caster)
-						if Ns.canInspect then NotifyInspect(caster) end
-						Ns.impMoonCheck = true
-						Ns.throttleTime = GetTime()
-					end
+			if (GetTime() - Ns.throttleTime > Ns.inspectDelay) then
+				if (not UnitAffectingCombat("player")) and CheckInteractDistance(caster, 1) then
+					Ns.canInspect = CanInspect(caster)
+					if Ns.canInspect then NotifyInspect(caster) end
+					Ns.impMoonCheck = true
+					Ns.throttleTime = GetTime()
+				end
 			end
 		end
 		if Ns.RetributionAura[spellId] and caster ~= "player" and not Ns.impMoonCheck then
 			Ns.talentCaster = caster
 			Ns.hiddenHaste = Ns.impRet
-			if GetTime() - Ns.throttleTime > Ns.inspectDelay then
-				local inRange = CheckInteractDistance(caster, 1)
-					if inRange then Ns.canInspect = CanInspect(caster)
+			if (GetTime() - Ns.throttleTime > Ns.inspectDelay)  then
+					if (not UnitAffectingCombat("player")) and CheckInteractDistance(caster, 1) then
+						Ns.canInspect = CanInspect(caster)
 						if Ns.canInspect then NotifyInspect(caster) end
 						Ns.swiftRetCheck = true
 						Ns.throttleTime = GetTime()

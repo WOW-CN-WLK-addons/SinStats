@@ -39,7 +39,7 @@ end
 -- Emblem of Frost
 function Ns.FunctionList.FrostEmblem(HUD, data, options, ...)
 
-	local frost = select(2, GetCurrencyInfo(341))
+	local frost = GetCurrencyInfo(341).quantity
 
 	HUD:UpdateText(data, frost)
 end
@@ -48,7 +48,7 @@ end
 -- Defiler's Scourgestone
 function Ns.FunctionList.ScourgeStone(HUD, data, options, ...)
 
-	local stone = select(2, GetCurrencyInfo(2711))
+	local stone = GetCurrencyInfo(2711).quantity
 
 	HUD:UpdateText(data, stone)
 end
@@ -67,8 +67,8 @@ end
 function Ns.FunctionList.Emblems(HUD, data, options, ...)
 
 	local EB = options.Heroism_Valor
-	local _, heroism = GetCurrencyInfo(101)
-	local _, valor = GetCurrencyInfo(102)
+	local heroism = GetCurrencyInfo(101).quantity
+	local valor = GetCurrencyInfo(102).quantity
 	local returnText
 
 	if Ns.Band(EB, Heroism) then returnText = heroism end
@@ -82,7 +82,7 @@ end
 -- Sidereal Essence
 function Ns.FunctionList.Sidereal(HUD, data, options, ...)
 
-	local sidereal  =  select(2, GetCurrencyInfo(2589))
+	local sidereal  =  GetCurrencyInfo(2589).quantity
 
 	HUD:UpdateText(data, sidereal)
 end
@@ -91,7 +91,7 @@ end
 -- Emblem of Triumph
 function Ns.FunctionList.Triumph(HUD, data, options, ...)
 
-	local triumph = select(2, GetCurrencyInfo(301))
+	local triumph = GetCurrencyInfo(301).quantity
 
 	HUD:UpdateText(data, triumph)
 end
@@ -100,7 +100,7 @@ end
 -- Emblem of Conquest
 function Ns.FunctionList.Conquest(HUD, data, options, ...)
 
-	local conquest = select(2, GetCurrencyInfo(221))
+	local conquest = GetCurrencyInfo(221).quantity
 
 	HUD:UpdateText(data, conquest)
 end
@@ -110,8 +110,8 @@ end
 function Ns.FunctionList.StoneShard(HUD, data, options, ...)
 
 	local EB = options.Shards_Marks
-	local _, shards = GetCurrencyInfo(161)
-	local _, marks = GetCurrencyInfo(126)
+	local shards = GetCurrencyInfo(161).quantity
+	local marks = GetCurrencyInfo(126).quantity
 	local returnText
 
 	if Ns.Band(EB, StoneKeeper) then returnText = shards end
@@ -126,8 +126,8 @@ end
 function Ns.FunctionList.PvP(HUD, data, options, ...)
 
 	local EB = options.Honor_Arena
-	local _, honor = GetCurrencyInfo(1901)
-	local _, arena = GetCurrencyInfo(103)
+	local honor = GetCurrencyInfo(1901).quantity
+	local arena = GetCurrencyInfo(103).quantity
 	local returnText
 
 	if Ns.Band(EB, Honor) then returnText = honor end

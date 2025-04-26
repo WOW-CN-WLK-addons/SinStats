@@ -52,11 +52,11 @@ Ns.heartCrusader, Ns.savageCombat, Ns.impShadowbolt, Ns.faerieFireImp, Ns.master
 			Ns.talentCaster = caster
 			local casterGUID = UnitGUID(caster) or 0
 			if Ns.talentCaster ~= Ns.ImprovedFae[1] and casterGUID ~= Ns.ImprovedFae[3] then
-			local inRange = CheckInteractDistance(caster, 1)
-				if inRange then Ns.canInspect = CanInspect(caster)
+				if (not UnitAffectingCombat("player")) and CheckInteractDistance(caster, 1) then
+					Ns.canInspect = CanInspect(caster)
 					if Ns.canInspect then NotifyInspect(caster) end
-						Ns.faerieCheck = true
-						Ns.throttleTime = GetTime()
+					Ns.faerieCheck = true
+					Ns.throttleTime = GetTime()
 				end
 			end
 		end
