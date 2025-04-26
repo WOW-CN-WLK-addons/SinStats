@@ -219,11 +219,23 @@ L["SpeedMenu"] = "Speed"
 L["SpeedTip"] = ""
 L["SpeedDescription"] = L["TipsAndInfo"] .. "Your character's movement speed in real-time, including your " .. Ns.Colors.Green .. "Skyriding speed|r.\n\nA red " .. Ns.Colors.Red .. "Speed|r value indicates that you are affected by slowing effects or moving at a slower speed than normal"
 
+L["Gallagio"] = "Galla"
+L["GallagioAbrev"] = "Glc"
+L["GallagioMenu"] = "Gallagio Loyalty"
+L["GallagioTip"] = ""
+L["GallagioDescription"] = L["TipsAndInfo"] .. "Displays the renown rank of " .. Ns.GallaLink
+
 L["Cartels"] = "Cartel"
 L["CartelsAbrev"] = "Car"
 L["CartelsMenu"] = "Cartels Undermine"
 L["CartelsTip"] = ""
 L["CartelsDescription"] = L["TipsAndInfo"] .. "Displays the renown rank of " .. Ns.CartelLink
+
+L["Radiance"] = "Flame"
+L["RadianceAbrev"] = "Fr"
+L["RadianceMenu"] = "Flame's Radiance"
+L["RadianceTip"] = ""
+L["RadianceDescription"] = L["TipsAndInfo"] .. "Displays the renown rank of " .. Ns.RadianceLink
 
 L["Dornogal"] = "Dorno"
 L["DornogalAbrev"] = "Dor"
@@ -332,6 +344,12 @@ L["CofferKeyAbrev"] = "Key"
 L["CofferKeyMenu"] = "Coffer Key"
 L["CofferKeyTip"] = ""
 L["CofferKeyDescription"] = L["TipsAndInfo"] .. "Displays the currency " .. Ns.CofferLink
+
+L["Stash"] = "Stash"
+L["StashAbrev"] = "Stash"
+L["StashMenu"] = "Gilded Stash"
+L["StashTip"] = ""
+L["StashDescription"] = L["TipsAndInfo"] .. "Displays the quantity of looted " .. Ns.StashLink
 
 L["Spark"] = "Spark"
 L["SparkAbrev"] = "Spk"
@@ -651,7 +669,7 @@ L["Display_Max"] = "Cap color"
 L["Display_MaxTip"] = ""
 L["Display_Gold"] = "Show Gold only"
 L["Display_GoldTip"] = ""
-L["Display_Weekly"] = "Season Maximum"
+L["Display_Weekly"] = "Show Cap"
 L["Display_WeeklyTip"] = ""
 L["Display_Delves"] = "Tier 8+"
 L["Display_DelvesTip"] = "Tier 8 and above only"

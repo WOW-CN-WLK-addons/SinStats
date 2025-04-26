@@ -1,9 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: |cff71FFC9SinStats|r
 ## Author: Sinba
 ## Notes : Character Stats
-## Version: 5.9156
-## IconTexture: Interface\AddOns\SinStats\Textures\SinStatsLogo.blp
+## Version: 5.9163
+## IconTexture: Interface\AddOns\SinStats\Textures\MiniMap.blp
 ## X-License: All Rights Reserved
 ## Category: Combat
 ## X-Website: https://www.curseforge.com/wow/addons/sinstats

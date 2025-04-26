@@ -1,8 +1,8 @@
-## Interface: 11506
+## Interface: 11507
 ## Title: |cff71FFC9SinStats|r
 ## Author: Sinba
 ## Notes : Character Stats
-## Version: 5.9156
+## Version: 5.9163
 ## X-Website: https://www.curseforge.com/wow/addons/sinstats
 ## X-Curse-Project-ID: 389802
 ## SavedVariables: SinStatsDB

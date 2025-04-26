@@ -221,11 +221,23 @@ L["SpeedMenu"] = "速度"
 L["SpeedTip"] = ""
 L["SpeedDescription"] = L["TipsAndInfo"] .. "您角色的实时移动速度，包括您的 " .. Ns.Colors.Green .. "滑翔速度|r。\n\n红色 " .. Ns.Colors.Red .. "速度|r 值表示您受到减速效果影响或以比正常速度慢的速度移动"
 
+L["Gallagio"] = "加乐宫"
+L["GallagioAbrev"] = "加乐宫"
+L["GallagioMenu"] = "加乐宫"
+L["GallagioTip"] = ""
+L["GallagioDescription"] = L["TipsAndInfo"] .. "显示名望：" .. Ns.GallaLink
+
 L["Cartels"] = "安德麦财阀"
 L["CartelsAbrev"] = "安德麦财阀"
 L["CartelsMenu"] = "安德麦财阀"
 L["CartelsTip"] = ""
 L["CartelsDescription"] = L["TipsAndInfo"] .. "显示名望：" .. Ns.CartelLink
+
+L["Radiance"] = "圣焰之耀"
+L["RadianceAbrev"] = "圣焰之耀"
+L["RadianceMenu"] = "圣焰之耀"
+L["RadianceTip"] = ""
+L["RadianceDescription"] = L["TipsAndInfo"] .. "显示名望：" .. Ns.RadianceLink
 
 L["Dornogal"] = "多恩诺嘉尔议会"
 L["DornogalAbrev"] = "多恩诺嘉尔"
@@ -334,6 +346,12 @@ L["CofferKeyAbrev"] = "宝匣"
 L["CofferKeyMenu"] = "修复的宝匣钥匙"
 L["CofferKeyTip"] = ""
 L["CofferKeyDescription"] = L["TipsAndInfo"] .. "显示：" .. Ns.CofferLink
+
+L["Stash"] = "鎏金藏匿物"
+L["StashAbrev"] = "鎏金藏匿物"
+L["StashMenu"] = "鎏金藏匿物"
+L["StashTip"] = ""
+L["StashDescription"] = L["TipsAndInfo"] .. "显示：" .. Ns.StashLink
 
 L["Spark"] = "时运火花"
 L["SparkAbrev"] = "时运火花"

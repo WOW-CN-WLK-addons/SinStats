@@ -218,11 +218,23 @@ L["SpeedMenu"] = "이동 속도"
 L["SpeedTip"] = ""
 L["SpeedDescription"] = L["TipsAndInfo"] .. "캐릭터의 실시간 이동 속도입니다.\n\n빨간 " .. Ns.Colors.Red .. "이동 속도|r 값은 이동 속도 감소 효과에 걸렸거나 기본 속도보다 느리게 움직이는 것을 나타냅니다"
 
+L["Gallagio"] = "갤라지오"
+L["GallagioAbrev"] = "갤라지오"
+L["GallagioMenu"] = "갤라지오 충성"
+L["GallagioTip"] = ""
+L["GallagioDescription"] = L["TipsAndInfo"] .. "명성 순위를 표시합니다 " .. Ns.GallaLink
+
 L["Cartels"] = "언더마인"
 L["CartelsAbrev"] = "언더마인"
 L["CartelsMenu"] = "언더마인 무역회사 연합"
 L["CartelsTip"] = ""
 L["CartelsDescription"] = L["TipsAndInfo"] .. "명성 순위를 표시합니다 " .. Ns.CartelLink
+
+L["Radiance"] = "불꽃의 광휘"
+L["RadianceAbrev"] = "불꽃"
+L["RadianceMenu"] = "불꽃의 광휘"
+L["RadianceTip"] = ""
+L["RadianceDescription"] = L["TipsAndInfo"] .. "명성 순위를 표시합니다 " .. Ns.RadianceLink
 
 L["Dornogal"] = "도르노갈"
 L["DornogalAbrev"] = "도르노갈"
@@ -337,6 +349,12 @@ L["CofferKeyAbrev"] = "금고 열쇠"
 L["CofferKeyMenu"] = "복원된 금고 열쇠"
 L["CofferKeyTip"] = ""
 L["CofferKeyDescription"] = L["TipsAndInfo"] .. "통화를 표시합니다 " .. Ns.CofferLink
+
+L["Stash"] = "금빛 보관함"
+L["StashAbrev"] = "금빛 보관함"
+L["StashMenu"] = "금빛 보관함"
+L["StashTip"] = ""
+L["StashDescription"] = L["TipsAndInfo"] .. "통화를 표시합니다 " .. Ns.StashLink
 
 L["Spark"] = "행운의 불꽃"
 L["SparkAbrev"] = "행운의 불꽃"

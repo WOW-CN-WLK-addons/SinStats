@@ -286,6 +286,19 @@ function Ns.FunctionList.CofferKey(HUD, data, options, ...)
 end
 ----------------------------------------------
 
+-- Gilded Stash
+function Ns.FunctionList.Stash(HUD, data, options, ...)
+
+	local stash = C_UIWidgetManager.GetSpellDisplayVisualizationInfo(6659)
+	local currency = "N/A"
+    if stash ~= nil then
+    	currency = strmatch(stash.spellInfo.tooltip, '(%d/3)')
+	end
+
+	HUD:UpdateText(data, currency)
+end
+----------------------------------------------
+
 -- Flame-Blessed Iron
 function Ns.FunctionList.Iron(HUD, data, options, ...)
 
