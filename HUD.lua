@@ -265,7 +265,7 @@ function Ns:FillDisplayOrder(orderedlist, profile, configfill)
 		end
 	end
 	for k, v in ipairs(Ns.DefaultOrder) do
-		if profile.Stats[v.stat].Show then
+		if profile.Stats[v.stat] and profile.Stats[v.stat].Show then
 			local found
 			if profile.CustomOrderList then
 				for i, stat in ipairs(profile.CustomOrderList) do
