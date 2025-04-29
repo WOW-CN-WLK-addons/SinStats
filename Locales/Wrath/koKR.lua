@@ -641,6 +641,8 @@ L["Pet"] = "애완동물"
 L["PetDescription"] = ""
 L["Currency"] = "화폐"
 L["CurrencyDescription"] = ""
+L["Skill"] = "기능"
+L["SkillDescription"] = ""
 
 -- Hud
 L["SettingsDescription"] = ""

@@ -34,4 +34,5 @@ Stats\Wrath\Spells.lua
 Stats\Wrath\Pet.lua
 Stats\Wrath\Resistance.lua
 Stats\Wrath\Currency.lua
+Stats\Wrath\Skill.lua
 Stats\Wrath\Misc.lua

@@ -640,6 +640,8 @@ L["Pet"] = "Pet"
 L["PetDescription"] = ""
 L["Currency"] = "Currency"
 L["CurrencyDescription"] = ""
+L["Skill"] = "Skill"
+L["SkillDescription"] = ""
 
 -- HUD
 L["SettingsDescription"] = ""

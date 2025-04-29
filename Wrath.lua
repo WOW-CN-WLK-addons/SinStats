@@ -155,7 +155,8 @@ Ns.SpellClass = {
 	[5] = { stat="Pet", icon="Pet", },
 	[6] = { stat="Resistance", icon="Resistance", },
 	[7] = { stat="Currency", icon="Currency", },
-	[8] = { stat="Misc", icon="Misc", },
+	[8] = { stat="Skill", icon="Caps" },
+	[9] = { stat="Misc", icon="Misc", },
 }
 
 ------------------------------
